@@ -14,7 +14,7 @@ export function IntroSection() {
             {/* Image container */}
             <div className="relative aspect-[3/4] bg-secondary overflow-hidden">
               <Image
-                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/portrait.jpg`}"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/portrait.jpg`}
                 alt="Goh Dong Yue portrait"
                 fill
                 className="object-cover"
