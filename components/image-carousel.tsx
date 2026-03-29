@@ -63,7 +63,7 @@ export function ImageCarousel({ images, aspectRatio = "video" }: ImageCarouselPr
                 style={{ width: `${100 / images.length}%` }}
               >
                 <Image
-                  src={image}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}${image}`}
                   alt={`Slide ${index + 1}`}
                   fill
                   className="object-cover"
@@ -156,7 +156,7 @@ export function ImageCarousel({ images, aspectRatio = "video" }: ImageCarouselPr
                   style={{ width: `${100 / images.length}%` }}
                 >
                   <Image
-                    src={image}
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH}${image}`}
                     alt={`Slide ${index + 1}`}
                     fill
                     className="object-contain"
