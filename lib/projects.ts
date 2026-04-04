@@ -5,6 +5,7 @@ import { createProject, type Project } from "./types";
 // Add projects here in the order you want them displayed
 // =============================================================================
 export const featuredProjects: Project[] = [
+  
   createProject(
     "ami",
     "AMI",
@@ -12,7 +13,7 @@ export const featuredProjects: Project[] = [
     "Work",
     "Team",
     "Completed",
-    ["Product Design", "Software Engineering", "Unity Engine", "C#"],
+    ["Product Design", "Frontend", "Unity Engine", "C#"],
     [
       "/images/ami/1.png",
       "/images/ami/2.png",
@@ -26,6 +27,7 @@ export const featuredProjects: Project[] = [
       "/images/ami/10.png"
     ]
   ),
+  
   createProject(
     "proc-anim-system",
     "Procedural Animation System",
@@ -48,20 +50,7 @@ export const featuredProjects: Project[] = [
 // Add projects here in the order you want them displayed
 // =============================================================================
 export const otherProjects: Project[] = [
-  createProject(
-    "raidist",
-    "Raidist",
-    "A PvPvE extraction style game in a fantasy setting.",
-    "Personal",
-    "Team",
-    "Discontinued",
-    ["Game Design", "Systems Design", "Project Management"],
-    [
-      "/images/raidist/1.png",
-      "/images/raidist/2.png",
-      "/images/raidist/3.png"
-    ]
-  ),
+  
   createProject(
     "astralane",
     "Astralane",
@@ -74,6 +63,21 @@ export const otherProjects: Project[] = [
       "/images/astralane/1.png",
       "/images/astralane/2.png",
       "/images/astralane/3.png"
+    ]
+  ),
+
+  createProject(
+    "raidist",
+    "Raidist",
+    "A PvPvE extraction style game in a fantasy setting.",
+    "Personal",
+    "Team",
+    "Discontinued",
+    ["Game Design", "Project Management"],
+    [
+      "/images/raidist/1.png",
+      "/images/raidist/2.png",
+      "/images/raidist/3.png"
     ]
   ),
 ];
