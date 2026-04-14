@@ -54,7 +54,7 @@ export const otherProjects: Project[] = [
     createProject(
     "storyweaver",
     "StoryWeaver",
-    "A murder mystery novel game with infinite replayability utilising unique generated stories using procedural WFC maps and OpenAI API + RAG writing",
+    "A murder mystery novel game with infinite replayability utilising unique generated stories using procedural WFC maps and OpenAI API + RAG writing.",
     "Coursework",
     "Team",
     "Completed",
