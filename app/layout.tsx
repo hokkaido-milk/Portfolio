@@ -16,7 +16,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Goh Dong Yue | Portfolio',
-  description: 'Interdisciplinary creative exploring Tech, Art and Design',
+  description: '',
   generator: 'v0.app',
   icons: {
     icon: [
