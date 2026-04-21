@@ -9,11 +9,11 @@ export const featuredProjects: Project[] = [
   createProject(
     "ami",
     "AMI",
-    "AMI features over 50 levels of research curated cognitive games across 3 game modes that evaluate visual recognition, semantic knowledge, and language fluency. AMI also features an AI chatbot powered by Azure Speech Services, OpenAI API, and elderly tailored system prompts for conversations in local lingo and accented TTS, as well as mental health monitoring. To support research needs, the app also logs over 30 sources of user input and performance metrics as JSON data, and everything in the app is available in both English and Mandarin.",
+    "AMI features over 50 levels of cognitive games across 3 game modes that evaluate visual recognition, semantic knowledge, and language fluency, with everything available in both English and Mandarin. AMI also features an AI chatbot contextualised with elderly tailored system prompts for conversations in local lingo and accented TTS, as well as active monitoring of the user’s mental health and mood. To support research needs, AMI also logs over 30 sources of user input/performance metrics as JSON data.",
     "Work",
     "Team",
     "Completed",
-    ["Frontend", "Product Management", "Unity Engine", "C#"],
+    ["Frontend", "Product Management", "Unity Engine", "C#", "OpenAI API", "Azure Speech Services"],
     [
       "/images/ami/1.png",
       "/images/ami/2.png",
@@ -54,11 +54,11 @@ export const otherProjects: Project[] = [
     createProject(
     "storyweaver",
     "StoryWeaver",
-    "A murder mystery novel game with infinite replayability utilising unique generated stories using procedural WFC maps and OpenAI API + RAG writing.",
+    "A murder mystery novel game with infinite replayability utilising unique generated stories using procedural WFC maps and GenAI + RAG writing.",
     "Coursework",
     "Team",
     "Completed",
-    ["Game Design", "Frontend", "Android", "Java"],
+    ["Game Design", "Frontend", "Android", "Java", "OpenAI API"],
     [
       "/images/storyweaver/1.png",
       "/images/storyweaver/2.png",
