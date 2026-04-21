@@ -9,7 +9,7 @@ export const featuredProjects: Project[] = [
   createProject(
     "ami",
     "AMI",
-    "AMI features over 50 levels of cognitive games across 3 game modes that evaluate visual recognition, semantic knowledge, and language fluency, with everything available in both English and Mandarin. AMI also features an AI chatbot contextualised with elderly tailored system prompts for conversations in local lingo and accented TTS, as well as active monitoring of the user’s mental health and mood. To support research needs, AMI also logs over 30 sources of user input/performance metrics as JSON data.",
+    "AMI features over 50 levels of cognitive games across 3 game modes that evaluate visual recognition, semantic knowledge, and language fluency, with everything available in both English and Mandarin. AMI also features an AI chatbot contextualised with elderly-tailored system prompts for conversations in local lingo and accented TTS, as well as active monitoring of the user’s mental health and mood. To support research needs, AMI also logs over 30 sources of user input/performance metrics as JSON data.",
     "Work",
     "Team",
     "Completed",
