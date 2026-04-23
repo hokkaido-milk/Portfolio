@@ -13,7 +13,7 @@ export const featuredProjects: Project[] = [
     "Work",
     "Team",
     "Completed",
-    ["Frontend", "Product Management", "Unity Engine", "C#", "OpenAI API", "Azure Speech Services"],
+    ["Unity Engine", "C#", "OpenAI API", "Azure Speech Services"],
     [
       "/images/ami/1.png",
       "/images/ami/2.png",
@@ -42,7 +42,7 @@ export const otherProjects: Project[] = [
     "Personal",
     "Solo",
     "Ongoing",
-    ["Game Development", "Unity Engine", "C#"],
+    ["Unity Engine", "C#"],
     [
       "/images/proc-anim/1.png",
       "/images/proc-anim/2.png",
@@ -58,7 +58,7 @@ export const otherProjects: Project[] = [
     "Coursework",
     "Team",
     "Completed",
-    ["Game Design", "Frontend", "Android", "Java", "OpenAI API"],
+    ["Android SDK", "Java", "OpenAI API"],
     [
       "/images/storyweaver/1.png",
       "/images/storyweaver/2.png",
@@ -76,26 +76,11 @@ export const otherProjects: Project[] = [
     "Game Jam",
     "Team",
     "Completed",
-    ["Game Design", "Game Development", "Unity Engine", "C#"],
+    ["Unity Engine", "C#"],
     [
       "/images/astralane/1.png",
       "/images/astralane/2.png",
       "/images/astralane/3.png"
-    ]
-  ),
-
-  createProject(
-    "raidist",
-    "Raidist",
-    "A PvPvE extraction style game in a fantasy setting.",
-    "Personal",
-    "Team",
-    "Discontinued",
-    ["Game Design", "Project Management"],
-    [
-      "/images/raidist/1.png",
-      "/images/raidist/2.png",
-      "/images/raidist/3.png"
     ]
   ),
 ];
