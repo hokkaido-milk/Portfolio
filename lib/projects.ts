@@ -31,7 +31,7 @@ export const featuredProjects: Project[] = [
   createProject(
     "guarding-block-44",
     "Guarding Block 44",
-    "https://dingledangledongle.itch.io/guarding-block-44\n\nAn atmospheric horror game in an army camp where you try to make it to the end of your patrol shift while solving anomalies.",
+    "An atmospheric horror game in an army camp where you try to make it to the end of your patrol shift while solving anomalies.",
     "Game Jam",
     "Team",
     "Completed",
