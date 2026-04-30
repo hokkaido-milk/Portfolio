@@ -9,11 +9,11 @@ export const featuredProjects: Project[] = [
   createProject(
     "ami",
     "AMI",
-    "AMI features over 50 levels of cognitive games across 3 game modes that evaluate visual recognition, semantic knowledge, and language fluency, with everything available in both English and Mandarin. AMI also features an AI chatbot contextualised with elderly-tailored system prompts for conversations in local lingo and accented TTS, as well as active monitoring of the user’s mental health and mood. To support research needs, AMI also logs over 30 sources of user input/performance metrics as JSON data.",
+    "A mobile app featuring cognitive games that evaluate visual recognition, semantic knowledge and language fluency, and a localised AI chatbot with accented TTS and health monitoring. User data is logged for academic research.",
     "Work",
     "Team",
     "Completed",
-    ["Unity Engine", "C#", "OpenAI API", "Azure Speech Services"],
+    ["Unity Engine", "OpenAI API", "Azure Speech Services"],
     [
       "/images/ami/1.png",
       "/images/ami/2.png",
@@ -29,27 +29,34 @@ export const featuredProjects: Project[] = [
   ),
 ];
 
+  createProject(
+    "guarding-block-44",
+    "Guarding Block 44",
+    "https://dingledangledongle.itch.io/guarding-block-44\n\nAn atmospheric horror game in an army camp where you try to make it to the end of your patrol shift while solving anomalies.",
+    "Game Jam",
+    "Team",
+    "Completed",
+    ["Unity Engine"],
+    [
+      "/images/guarding-block-44/1.png",
+      "/images/guarding-block-44/2.png",
+      "/images/guarding-block-44/3.png",
+      "/images/guarding-block-44/4.png",
+      "/images/guarding-block-44/5.png",
+      "/images/guarding-block-44/6.png",
+      "/images/guarding-block-44/7.png",
+      "/images/guarding-block-44/8.png",
+      "/images/guarding-block-44/9.png",
+      "/images/guarding-block-44/10.png"
+    ]
+  ),
+];
+
 // =============================================================================
 // OTHER PROJECTS (Section 3 - Small Grid Cards)
 // Add projects here in the order you want them displayed
 // =============================================================================
 export const otherProjects: Project[] = [
-
-  createProject(
-    "proc-anim-system",
-    "Procedural Animation System",
-    "A modular animation system in Unity that uses the Animation Rigging library to animate using constraints, targets and curves.",
-    "Personal",
-    "Solo",
-    "Ongoing",
-    ["Unity Engine", "C#"],
-    [
-      "/images/proc-anim/1.png",
-      "/images/proc-anim/2.png",
-      "/images/proc-anim/3.png",
-      "/images/proc-anim/4.png"
-    ]
-  ),
   
     createProject(
     "storyweaver",
@@ -58,7 +65,7 @@ export const otherProjects: Project[] = [
     "Coursework",
     "Team",
     "Completed",
-    ["Android SDK", "Java", "OpenAI API"],
+    ["Android SDK", "OpenAI API"],
     [
       "/images/storyweaver/1.png",
       "/images/storyweaver/2.png",
@@ -76,11 +83,29 @@ export const otherProjects: Project[] = [
     "Game Jam",
     "Team",
     "Completed",
-    ["Unity Engine", "C#"],
+    ["Unity Engine"],
     [
       "/images/astralane/1.png",
       "/images/astralane/2.png",
       "/images/astralane/3.png"
     ]
   ),
+
+  /*
+    createProject(
+    "proc-anim-system",
+    "Procedural Animation System",
+    "A modular animation system in Unity that uses the Animation Rigging library to animate using constraints, targets and curves.",
+    "Personal",
+    "Solo",
+    "Ongoing",
+    ["Unity Engine"],
+    [
+      "/images/proc-anim/1.png",
+      "/images/proc-anim/2.png",
+      "/images/proc-anim/3.png",
+      "/images/proc-anim/4.png"
+    ]
+  ),
+  */
 ];
