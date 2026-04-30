@@ -27,7 +27,6 @@ export const featuredProjects: Project[] = [
       "/images/ami/10.png"
     ]
   ),
-];
 
   createProject(
     "guarding-block-44",
